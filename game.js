@@ -66,7 +66,6 @@ export class Game {
             }
             canvas_data.data[index*4+3] = 255;
         });
-        console.log(canvas_data);
         this.ctx.putImageData(canvas_data, 0, 0);
     }
     randomize() {
